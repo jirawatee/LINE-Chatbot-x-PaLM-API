@@ -9,8 +9,8 @@ exports.webhook = onRequest(async (req, res) => {
       switch (event.type) {
         case "message":
           if (event.message.type === "text") {
-            const result = await palm.chat(event.message.text);
-            const msg = result[0].candidates[0].content;
+            const result = await palm.text(event.message.text);
+            const msg = result[0].candidates[0].output;
             await reply(event.replyToken, [{ type: "text", text: msg }]);
           }
           break;
