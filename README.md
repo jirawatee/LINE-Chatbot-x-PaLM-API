@@ -3,7 +3,7 @@ Code of integrating LINE Chatbot with PaLM API using Cloud Functions for Firebas
 
 ## Prerequisites
 * [Node.js v14](https://nodejs.org) or higher
-* [Create a channel on the LINE Developers console](https://developers.line.me/en/docs/line-login/getting-started)
+* [Create a channel on the LINE Developers console](https://developers.line.biz/en/docs/messaging-api/getting-started/)
 * Create a Firebase project using the [Firebase Console](https://console.firebase.google.com) and select <b>Blaze plan</b>
 
 ## Cloud Functions for Firebase
